@@ -8,7 +8,7 @@
     <key>CFBundleIconFile</key>
     <string/>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.declinationLiving</string>
+    <string>com.resonantrhythm.declinationLiving</string>
     <key>CFBundleName</key>
     <string>declinationLiving</string>
     <key>CFBundleDisplayName</key>
@@ -18,9 +18,9 @@
     <key>CFBundleSignature</key>
     <string>????</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.0.0</string>
+    <string>1.0</string>
     <key>CFBundleVersion</key>
-    <string>1.0.0</string>
+    <string>1.0</string>
     <key>NSHumanReadableCopyright</key>
     <string/>
     <key>NSHighResolutionCapable</key>

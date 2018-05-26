@@ -158,7 +158,7 @@
 					"_DEBUG=1",
 					"DEBUG=1",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION=1.0",
 					"JUCE_APP_VERSION_HEX=0x10000",
 					"JucePlugin_Build_VST=0",
 					"JucePlugin_Build_VST3=0",
@@ -174,7 +174,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.declinationLiving;
+				PRODUCT_BUNDLE_IDENTIFIER = com.resonantrhythm.declinationLiving;
 				SDKROOT_ppc = macosx10.5;
 				USE_HEADERMAP = NO; }; name = Debug; };
 		BC73F289F919BF18F1D5C099 = {isa = XCBuildConfiguration; buildSettings = {
@@ -190,7 +190,7 @@
 					"_NDEBUG=1",
 					"NDEBUG=1",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
-					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION=1.0",
 					"JUCE_APP_VERSION_HEX=0x10000",
 					"JucePlugin_Build_VST=0",
 					"JucePlugin_Build_VST3=0",
@@ -208,7 +208,7 @@
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.declinationLiving;
+				PRODUCT_BUNDLE_IDENTIFIER = com.resonantrhythm.declinationLiving;
 				SDKROOT_ppc = macosx10.5;
 				USE_HEADERMAP = NO; }; name = Release; };
 		EC41A2684B79C8C4014BF1D9 = {isa = XCBuildConfiguration; buildSettings = {
@@ -328,7 +328,7 @@
 					D4389DB3395FD70D7FF14692,
 					7AFB0230D33E05F8007527E3,
 					A7D984DA0A1460ACFD1F420A, ); buildRules = ( ); dependencies = (  ); name = "declinationLiving - App"; productName = declinationLiving; productReference = 1B53676FB8503414C1C1E69A; productType = "com.apple.product-type.application"; };
-		1EE90F87FAAF9CCF19F422F9 = {isa = PBXProject; buildConfigurationList = 8A3352ED99741DAFDE090F0E; attributes = { LastUpgradeCheck = 0930; ORGANIZATIONNAME = ""; TargetAttributes = { FF8347A9897B3474A2B45322 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; }; }; }; }; compatibilityVersion = "Xcode 3.2"; hasScannedForEncodings = 0; mainGroup = 1B8A0F085C6742650BFED13B; projectDirPath = ""; projectRoot = ""; targets = (FF8347A9897B3474A2B45322); };
+		1EE90F87FAAF9CCF19F422F9 = {isa = PBXProject; buildConfigurationList = 8A3352ED99741DAFDE090F0E; attributes = { LastUpgradeCheck = 0930; ORGANIZATIONNAME = "Resonant Rhythm"; TargetAttributes = { FF8347A9897B3474A2B45322 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; }; }; }; }; compatibilityVersion = "Xcode 3.2"; hasScannedForEncodings = 0; mainGroup = 1B8A0F085C6742650BFED13B; projectDirPath = ""; projectRoot = ""; targets = (FF8347A9897B3474A2B45322); };
 	};
 	rootObject = 1EE90F87FAAF9CCF19F422F9;
 }
