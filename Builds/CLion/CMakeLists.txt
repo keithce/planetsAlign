@@ -16,6 +16,8 @@ if (APPLE)
 project ("declinationLiving" C CXX)
 
 add_executable (APP
+        "../../Source/HeaderComponent.cpp"
+        "../../Source/HeaderComponent.h"
     "../../Source/MainComponent.h"
     "../../Source/MainComponent.cpp"
     "../../Source/Main.cpp"
@@ -1214,6 +1216,7 @@ add_executable (APP
     "../../JuceLibraryCode/JuceHeader.h"
 )
 
+set_source_files_properties("../../Source/HeaderComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/MainComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../../JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.cpp" PROPERTIES HEADER_FILE_ONLY TRUE)

@@ -5,6 +5,10 @@
               companyEmail="keith@resonantrhythm.com" bundleIdentifier="com.resonantrhythm.declinationLiving">
   <MAINGROUP id="SwkfDL" name="declinationLiving">
     <GROUP id="{73964194-D3BE-7FE5-32B4-2E4B3F7CE947}" name="Source">
+      <FILE id="HkxuWh" name="HeaderComponent.cpp" compile="1" resource="0"
+            file="Source/HeaderComponent.cpp"/>
+      <FILE id="FDlmDd" name="HeaderComponent.h" compile="0" resource="0"
+            file="Source/HeaderComponent.h"/>
       <FILE id="XNi0R8" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="IormvN" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
@@ -109,7 +113,7 @@
     <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
   </MODULES>
   <LIVE_SETTINGS>
-    <OSX/>
+    <OSX buildEnabled="1"/>
   </LIVE_SETTINGS>
   <JUCEOPTIONS/>
 </JUCERPROJECT>

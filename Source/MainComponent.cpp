@@ -11,7 +11,10 @@
 //==============================================================================
 MainComponent::MainComponent()
 {
+    addAndMakeVisible(m_headerPanel);
+
     setSize (600, 400);
+    toFront(true);
 }
 
 MainComponent::~MainComponent()
@@ -31,7 +34,7 @@ void MainComponent::paint (Graphics& g)
 
 void MainComponent::resized()
 {
-    // This is called when the MainComponent is resized.
-    // If you add any child components, this is where you should
-    // update their positions.
+    auto area = getLocalBounds();
+
+    m_headerPanel.setBounds(area.removeFromTop(m_headerPanel.DEFAULT_SIZE));
 }

@@ -358,6 +358,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\HeaderComponent.cpp">
+      <Filter>declinationLiving\Source</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\MainComponent.cpp">
       <Filter>declinationLiving\Source</Filter>
     </ClCompile>
@@ -2109,6 +2112,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\HeaderComponent.h">
+      <Filter>declinationLiving\Source</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\MainComponent.h">
       <Filter>declinationLiving\Source</Filter>
     </ClInclude>
