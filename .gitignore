@@ -87,3 +87,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Compiled Build Paths
+Builds/CLion/cmake-build-debug/
