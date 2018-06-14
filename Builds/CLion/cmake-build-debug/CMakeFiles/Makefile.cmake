@@ -31,6 +31,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/kelliott/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/Platform/UnixPaths.cmake"
   "/Users/kelliott/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/181.4668.70/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
+  "../Debug-Info-App.plist"
   "CMakeFiles/3.10.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.3/CMakeSystem.cmake"
@@ -44,9 +45,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "declinationLiving.app/Contents/MacOS"
+  "declinationLiving.app/Contents/Info.plist"
+  "declinationLiving.app/Contents/Info.plist"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/APP.dir/DependInfo.cmake"
   )

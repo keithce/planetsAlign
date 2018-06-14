@@ -135,7 +135,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 CMAKE_OSX_SYSROOT:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Project
+CMAKE_PROJECT_NAME:STATIC=declinationLiving
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib
@@ -194,6 +194,12 @@ Project_BINARY_DIR:STATIC=/Users/kelliott/Work/declinationLiving/Builds/CLion/cm
 
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/Users/kelliott/Work/declinationLiving/Builds/CLion
+
+//Value Computed by CMake
+declinationLiving_BINARY_DIR:STATIC=/Users/kelliott/Work/declinationLiving/Builds/CLion/cmake-build-debug
+
+//Value Computed by CMake
+declinationLiving_SOURCE_DIR:STATIC=/Users/kelliott/Work/declinationLiving/Builds/CLion
 
 
 ########################

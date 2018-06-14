@@ -110,6 +110,505 @@ depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named APP
+
+# Build rule for target.
+APP: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 APP
+.PHONY : APP
+
+# fast build rule for target.
+APP/fast:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/build
+.PHONY : APP/fast
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.o: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.mm.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.mm.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.mm.o
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.mm.o
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.i: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.mm.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.mm.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.mm.i
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.mm.i
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.s: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.mm.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.mm.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.mm.s
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.mm.s
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.o: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.mm.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.mm.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.mm.o
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.mm.o
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.i: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.mm.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.mm.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.mm.i
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.mm.i
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.s: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.mm.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.mm.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.mm.s
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.mm.s
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.o: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.mm.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.mm.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.mm.o
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.mm.o
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.i: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.mm.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.mm.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.mm.i
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.mm.i
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.s: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.mm.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.mm.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.mm.s
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.mm.s
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.o: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.mm.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.mm.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.mm.o
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.mm.o
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.i: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.mm.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.mm.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.mm.i
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.mm.i
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.s: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.mm.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.mm.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.mm.s
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.mm.s
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.o: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.mm.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.mm.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.mm.o
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.mm.o
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.i: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.mm.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.mm.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.mm.i
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.mm.i
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.s: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.mm.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.mm.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.mm.s
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.mm.s
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.o: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.mm.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.mm.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.mm.o
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.mm.o
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.i: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.mm.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.mm.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.mm.i
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.mm.i
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.s: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.mm.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.mm.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.mm.s
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.mm.s
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.o: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.mm.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.mm.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.mm.o
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.mm.o
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.i: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.mm.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.mm.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.mm.i
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.mm.i
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.s: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.mm.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.mm.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.mm.s
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.mm.s
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.o: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.mm.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.mm.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.mm.o
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.mm.o
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.i: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.mm.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.mm.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.mm.i
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.mm.i
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.s: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.mm.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.mm.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.mm.s
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.mm.s
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.o: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.mm.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.mm.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.mm.o
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.mm.o
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.i: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.mm.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.mm.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.mm.i
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.mm.i
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.s: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.mm.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.mm.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.mm.s
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.mm.s
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.o: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.mm.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.mm.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.mm.o
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.mm.o
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.i: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.mm.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.mm.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.mm.i
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.mm.i
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.s: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.mm.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.mm.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.mm.s
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.mm.s
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.o: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.mm.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.mm.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.mm.o
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.mm.o
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.i: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.mm.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.mm.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.mm.i
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.mm.i
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.s: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.mm.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.mm.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.mm.s
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.mm.s
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.o: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.mm.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.mm.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.mm.o
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.mm.o
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.i: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.mm.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.mm.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.mm.i
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.mm.i
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.s: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.mm.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.mm.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.mm.s
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.mm.s
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.o: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.mm.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.mm.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.mm.o
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.mm.o
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.i: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.mm.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.mm.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.mm.i
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.mm.i
+
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.s: Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.mm.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.mm.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.mm.s
+.PHONY : Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.mm.s
+
+Users/kelliott/Work/declinationLiving/Source/Calculator.o: Users/kelliott/Work/declinationLiving/Source/Calculator.cpp.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Calculator.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/Source/Calculator.cpp.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/Calculator.cpp.o
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Calculator.cpp.o
+
+Users/kelliott/Work/declinationLiving/Source/Calculator.i: Users/kelliott/Work/declinationLiving/Source/Calculator.cpp.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Calculator.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/Source/Calculator.cpp.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/Calculator.cpp.i
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Calculator.cpp.i
+
+Users/kelliott/Work/declinationLiving/Source/Calculator.s: Users/kelliott/Work/declinationLiving/Source/Calculator.cpp.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Calculator.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/Source/Calculator.cpp.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/Calculator.cpp.s
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Calculator.cpp.s
+
+Users/kelliott/Work/declinationLiving/Source/HeaderComponent.o: Users/kelliott/Work/declinationLiving/Source/HeaderComponent.cpp.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/HeaderComponent.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/Source/HeaderComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/HeaderComponent.cpp.o
+.PHONY : Users/kelliott/Work/declinationLiving/Source/HeaderComponent.cpp.o
+
+Users/kelliott/Work/declinationLiving/Source/HeaderComponent.i: Users/kelliott/Work/declinationLiving/Source/HeaderComponent.cpp.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/HeaderComponent.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/Source/HeaderComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/HeaderComponent.cpp.i
+.PHONY : Users/kelliott/Work/declinationLiving/Source/HeaderComponent.cpp.i
+
+Users/kelliott/Work/declinationLiving/Source/HeaderComponent.s: Users/kelliott/Work/declinationLiving/Source/HeaderComponent.cpp.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/HeaderComponent.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/Source/HeaderComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/HeaderComponent.cpp.s
+.PHONY : Users/kelliott/Work/declinationLiving/Source/HeaderComponent.cpp.s
+
+Users/kelliott/Work/declinationLiving/Source/Main.o: Users/kelliott/Work/declinationLiving/Source/Main.cpp.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Main.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/Source/Main.cpp.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/Main.cpp.o
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Main.cpp.o
+
+Users/kelliott/Work/declinationLiving/Source/Main.i: Users/kelliott/Work/declinationLiving/Source/Main.cpp.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Main.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/Source/Main.cpp.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/Main.cpp.i
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Main.cpp.i
+
+Users/kelliott/Work/declinationLiving/Source/Main.s: Users/kelliott/Work/declinationLiving/Source/Main.cpp.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Main.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/Source/Main.cpp.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/Main.cpp.s
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Main.cpp.s
+
+Users/kelliott/Work/declinationLiving/Source/MainComponent.o: Users/kelliott/Work/declinationLiving/Source/MainComponent.cpp.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/MainComponent.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/Source/MainComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/MainComponent.cpp.o
+.PHONY : Users/kelliott/Work/declinationLiving/Source/MainComponent.cpp.o
+
+Users/kelliott/Work/declinationLiving/Source/MainComponent.i: Users/kelliott/Work/declinationLiving/Source/MainComponent.cpp.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/MainComponent.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/Source/MainComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/MainComponent.cpp.i
+.PHONY : Users/kelliott/Work/declinationLiving/Source/MainComponent.cpp.i
+
+Users/kelliott/Work/declinationLiving/Source/MainComponent.s: Users/kelliott/Work/declinationLiving/Source/MainComponent.cpp.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/MainComponent.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/Source/MainComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/MainComponent.cpp.s
+.PHONY : Users/kelliott/Work/declinationLiving/Source/MainComponent.cpp.s
+
+Users/kelliott/Work/declinationLiving/Source/Person.o: Users/kelliott/Work/declinationLiving/Source/Person.cpp.o
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Person.o
+
+# target to build an object file
+Users/kelliott/Work/declinationLiving/Source/Person.cpp.o:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/Person.cpp.o
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Person.cpp.o
+
+Users/kelliott/Work/declinationLiving/Source/Person.i: Users/kelliott/Work/declinationLiving/Source/Person.cpp.i
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Person.i
+
+# target to preprocess a source file
+Users/kelliott/Work/declinationLiving/Source/Person.cpp.i:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/Person.cpp.i
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Person.cpp.i
+
+Users/kelliott/Work/declinationLiving/Source/Person.s: Users/kelliott/Work/declinationLiving/Source/Person.cpp.s
+
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Person.s
+
+# target to generate assembly for a file
+Users/kelliott/Work/declinationLiving/Source/Person.cpp.s:
+	$(MAKE) -f CMakeFiles/APP.dir/build.make CMakeFiles/APP.dir/Users/kelliott/Work/declinationLiving/Source/Person.cpp.s
+.PHONY : Users/kelliott/Work/declinationLiving/Source/Person.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +617,61 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... APP"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.o"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.i"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_basics.s"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.o"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.i"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_devices.s"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.o"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.i"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_formats.s"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.o"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.i"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_audio_processors.s"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.o"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.i"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_core.s"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.o"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.i"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_cryptography.s"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.o"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.i"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_data_structures.s"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.o"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.i"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_events.s"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.o"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.i"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_graphics.s"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.o"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.i"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_basics.s"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.o"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.i"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_gui_extra.s"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.o"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.i"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_opengl.s"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.o"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.i"
+	@echo "... Users/kelliott/Work/declinationLiving/JuceLibraryCode/include_juce_video.s"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/Calculator.o"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/Calculator.i"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/Calculator.s"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/HeaderComponent.o"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/HeaderComponent.i"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/HeaderComponent.s"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/Main.o"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/Main.i"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/Main.s"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/MainComponent.o"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/MainComponent.i"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/MainComponent.s"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/Person.o"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/Person.i"
+	@echo "... Users/kelliott/Work/declinationLiving/Source/Person.s"
 .PHONY : help
 
 

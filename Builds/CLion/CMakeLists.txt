@@ -1214,7 +1214,7 @@ add_executable (APP
     "../../JuceLibraryCode/include_juce_opengl.mm"
     "../../JuceLibraryCode/include_juce_video.mm"
     "../../JuceLibraryCode/JuceHeader.h"
-)
+        ../../Source/Person.cpp ../../Source/Person.h ../../Source/Calculator.cpp ../../Source/Calculator.h)
 
 set_source_files_properties("../../Source/HeaderComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
 set_source_files_properties ("../../Source/MainComponent.h" PROPERTIES HEADER_FILE_ONLY TRUE)
