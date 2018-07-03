@@ -8,7 +8,7 @@
 
 class Calculator {
 public:
-    
+static float calculateOffset(float planetDecl, float latitude);
 };
 
 
